@@ -1,0 +1,42 @@
+=================================================
+LEPIDOPTERA DATA CLEANING SUMMARY
+=================================================
+Raw file: C:/Users/cmaej/OneDrive/Documents/BigData/data/LEPIDOPTERA_RAW_2026-03-25.zip
+Output cleaned file: C:/Users/cmaej/OneDrive/Documents/BigData/data/LEPIDOPTERA_CLEANED_2026-04-05.csv
+
+ROW COUNTS
+Initial rows: 323771
+Initial columns: 230
+Rows removed - non-Ohio records: 0
+Rows removed - missing coordinates: 11808
+Rows removed - missing scientific names: 0
+Rows removed - duplicates: 19533
+Rows removed - coordinate uncertainty > 5000 m: 34831
+Final rows: 257599
+Final columns: 14
+
+CLEANING STEPS COMPLETED
+- Kept only relevant variables for analysis
+- Filtered records to Ohio
+- Removed rows with missing decimalLatitude or decimalLongitude
+- Removed rows with missing/blank scientificName
+- Standardized text formatting
+- Attempted to standardize eventDate into eventDate_clean
+- Removed duplicate observations
+- Removed records with coordinateUncertaintyInMeters > 5000
+
+MISSING VALUES IN CLEANED DATA
+scientificName: 0
+decimalLatitude: 0
+decimalLongitude: 0
+eventDate: 6926
+eventDate_clean: 227625
+year: 6927
+month: 6997
+day: 7365
+stateProvince: 0
+county: 229590
+locality: 229444
+basisOfRecord: 0
+occurrenceStatus: 0
+coordinateUncertaintyInMeters: 61951
